@@ -1,0 +1,1 @@
+注意看 app.js 以及 views/index.jade

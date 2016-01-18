@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    div 日期轉字串
+        p= moment(new Date()).format('YYYY/MM/DD HH:mm:ss')
+    div 字串轉日期
+        p= moment('2016-01-19 00:14:38', 'YYYY-MM-DD HH:mm:ss')
